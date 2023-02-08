@@ -24,7 +24,7 @@ export const Section2 = () => {
         </div>
         <div className="image-section">
             <img src={MP} alt="" />  
-            <h1>MINARA-E-PAKISTAN</h1>
+            <h1>MENARA-E-PAKISTAN</h1>
             <p>Lahore / Punjab</p>
         </div>
         <div className="image-section">
