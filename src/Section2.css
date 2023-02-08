@@ -1,0 +1,52 @@
+.section2background{
+    background: #3f3f3f;
+}
+.Heading-text h1 {
+    color: #dcd7d7;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: "Poppins";
+}
+.Heading-text p{
+    color: #dcd7d7;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    font-family: "Poppins";
+}
+.image-section {
+    text-align: center;
+    padding-top: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.image-section img{
+    width: 300px;
+    height: 60%;
+}
+.Monements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image-section h1{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding-top: 10px;
+    color: #dcd7d7;
+}
+.image-section p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins";
+    padding-top: 10px;
+    color: #dcd7d7;
+}

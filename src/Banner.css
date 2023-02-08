@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Header ul{
+    text-align: center;
+    padding: 15px;
+  }
+  .Header ul li{
+    display: inline;
+    padding:150px ;
+  }
+  .Header ul li a{
+    text-decoration: none;
+    color: rgb(244, 240, 240);
+    font-size: 15px;
+  }
+.Heading h1{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 180px;
+    font-weight: 500;
+    color: #fff;
+}
+.background{
+    background: url('./images/Beautifull-Lake.jpg');
+    background-size: cover;
+    height: 1120px;
+}
