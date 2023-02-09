@@ -1,8 +1,8 @@
 .section2background{
-    background: #a7a7a7;
+    background: #e8e7e7;
 }
-.Heading-Text h1{
-    color: #ffffff;
+.Heading-text h1{
+    color: #000000;
     text-align: center;
     padding-top: 10px;
     font-size: 35px;
@@ -11,7 +11,7 @@
     font-family: "Poppins";
 }
 .Heading-text p{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 13px;
     font-weight: 300;
@@ -33,15 +33,21 @@
     font-size: 19px;
     font-family: "Poppins";
     font-weight: 300;
-    color: #dcd7d7;
+    color: #000000;
 }
 .colum h1{
-    color: #dcd7d7;
+    color: #000000;
     font-family: "Poppins";
     font-weight: 500;
 }
 .colum p{
-    color: #dcd7d7;
+    color: #000000;
     font-family: "Poppins";
     font-weight: 300;
+}
+.last-image img{
+    text-align: center;
+    width: 1900px;
+    height: 800px;
+    padding-top: 50px;
 }

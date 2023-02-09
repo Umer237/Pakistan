@@ -2,7 +2,7 @@ import React from "react";
 import "./Section3.css";
 import Br1 from'./images/Bridge-2.jpg'
 import Br2 from'./images/Bridge-2.jpeg'
-import LP from './images/Last-pic.png'
+import LP from './images/Beautifull-Lake_edited.jpg'
 
 export const Section3 = () => {
   return (

@@ -2,7 +2,7 @@
     background: #3f3f3f;
 }
 .Heading-text h1 {
-    color: #dcd7d7;
+    color: #ffffff;
     text-align: center;
     padding-top: 20px;
     font-size: 35px;
@@ -11,7 +11,7 @@
     font-family: "Poppins";
 }
 .Heading-text p{
-    color: #dcd7d7;
+    color: #ffffff;
     text-align: center;
     font-size: 13px;
     font-weight: 300;
@@ -41,12 +41,12 @@
     font-weight: 400;
     font-family: "Poppins";
     padding-top: 10px;
-    color: #dcd7d7;
+    color: #ffffff;
 }
 .image-section p{
     font-size: 20px;
     font-weight: 300;
     font-family: "Poppins";
     padding-top: 10px;
-    color: #dcd7d7;
+    color: #ffffff;
 }
