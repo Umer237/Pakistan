@@ -8,11 +8,11 @@ export const Section2 = () => {
   return (
     <>
       <div className="section2background">
-        <div className="Heading-text">
+        <div className="Heading-text"style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
         <h1>Let, Explore Pakistan</h1>
         <p>
           “Pakistan not only means freedom and independence but the Muslim
-          Ideology <br></br> which has to be preserved  which has come to us as a precious
+          Ideology which has to be preserved  which has come to us as a precious
           gift"
         </p>
         </div>

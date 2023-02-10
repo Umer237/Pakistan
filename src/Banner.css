@@ -7,13 +7,28 @@
 
 .Heading h1{
     text-align: center;
-    padding-top: 20%;
     font-size: 180px;
     font-weight: 500;
     color: #fff;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+  }
 .background{
     background: url('./images/Beautifull-Lake.jpg');
     background-size: cover;
     height: 1120px;
+}
+@media only screen and (max-width:700px){
+    .Heading h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+      }
 }

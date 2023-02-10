@@ -12,7 +12,7 @@ export const Section3 = () => {
         <div className="Heading-text">
           <h1>The Journals</h1>
           <p>
-            "Our favorite stories about public lands and opportunities  for you <br></br> to
+            "Our favorite stories about public lands and opportunities  for you to
             get involvedin protecting your outdoor experiences"
           </p>
         </div>
@@ -22,13 +22,13 @@ export const Section3 = () => {
           <img src={Br1} alt="" />
           <h3>FEB 08,  2023</h3>
           <h1>An Unforgtable</h1>
-          <p>If you only have one day to visit Yosemite National Park<br></br> and you want to make the most out of it.</p>
+          <p>If you only have one day to visit Yosemite National Park and you want to make the most out of it.</p>
         </div>
         <div className="colum">
           <img src={Br2} alt="" /> 
           <h3>FEB  08 2023</h3>
           <h1>Syphonies in Steel</h1>
-          <p>If you only have one day to visit Yosemite National Park<br></br> and you want to make the most out of it.</p>
+          <p>If you only have one day to visit Yosemite National Park and you want to make the most out of it.</p>
         </div>
       </div>
       <div className="last-image">

@@ -1,21 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header-background{
-    background: #3f3f3f;
+.header-background {
+  background: #3f3f3f;
 }
-.Header ul{
-    text-align: center;
-    padding: 15px;
-  }
-  .Header ul li{
-    display: inline;
-    padding:150px ;
-  }
-  .Header ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-  }
+.Header ul {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Header ul li {
+  display: inline;
+}
+.Header ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}

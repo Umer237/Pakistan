@@ -17,33 +17,38 @@
   align-items: center;
   padding-top: 150px;
   font-family: "Poppins";
+  flex-wrap: wrap;
+  padding: 10px;
 }
 .second-section img {
   width: 600px;
-  padding-right: 30px;
 }
 .second-section p {
-  width: 700px;
+  max-width: 700px;
   font-family: "Poppins";
 
-}
-.container-2 {
-  align-items: center;
-  display: flex;
-  padding-top: 200px;
-  padding-left: 200px;
-  width: 1600px;
-}
-.Img img {
+}.Img img {
   width: 600px;
 }
-.container-2 h1 {
-  padding-left: 100px;
-  font-family: "Poppins";
-
-}
-.container-2 p {
-  padding-left: 100px;
-  font-family: "Poppins";
+@media only screen and (max-width:600px){
+ .second-section h1{
+  text-align: center;
+  font-size: 30px;
+ }
+ .second-section p{
+  font-size: 12px;
+  text-align: center
+ }
+ .second-section{
+  justify-content: center;
+ }
+ .Img img{
+  width: 100%;
+  height: auto;
+ }
+ .second-section img{
+  width: 100%;
+  height: auto;
+ }
 
 }

@@ -13,7 +13,6 @@ export const About = () => {
       <div className="second-section">
         <div>
           <h1>Our Culture</h1>
-
           <p>
             Culture makes people understand each other better. And if they
             understand each other better in their soul, it is easier to overcome
@@ -39,13 +38,12 @@ export const About = () => {
           <img src={OC} alt="" />
         </div>
       </div>
-      <div className="container-2">
+      <div className="second-section">
         <div className="Img ">
-          <img src={HT} alt="" />
-        </div>
-        <div className="Text-h1-p">
+          <img src={HT} alt="" /> 
+          </div>
+        <div>
           <h1>Our Humanity</h1>
-
           <p>
             When the world feels heavy, it's easy to question whether it's
             worthwhile to have faith in humanity. Our team of journalists spends
@@ -64,8 +62,8 @@ export const About = () => {
             humanity enough to believe in their capacity to be transformed If
             you judge people, you have no time to love them.
           </p>
+          </div>       
         </div>
-      </div>
     </>
   );
 };
