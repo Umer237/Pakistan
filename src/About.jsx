@@ -38,7 +38,7 @@ export const About = () => {
           <img src={OC} alt="" />
         </div>
       </div>
-      <div className="second-section">
+      <div className="second-section-2">
         <div className="Img ">
           <img src={HT} alt="" /> 
           </div>

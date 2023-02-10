@@ -11,6 +11,19 @@
   font-weight: 600;
   
 }
+.second-section-2 p{
+  max-width: 700px;
+  font-family: "Poppins";
+}
+.second-section-2{
+  flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 150px;
+  font-family: "Poppins";
+  padding: 10px;
+}
 .second-section {
   display: flex;
   justify-content: space-evenly;
@@ -50,5 +63,15 @@
   width: 100%;
   height: auto;
  }
+ .second-section-2{
+  flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 150px;
+  font-family: "Poppins";
+  padding: 10px;
+  text-align: center;
+}
 
 }
