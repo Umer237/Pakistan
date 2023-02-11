@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const ReadmoreReadless = ({ children }) => {
   
-const [isReadMoreShown. setReadMoreShown] =
+const [isReadMoreShown.setReadMoreShown] =
     useState(false)
   
  const toggleBtn = () =>{
