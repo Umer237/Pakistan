@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-const ReadmoreReadless = ({ children }) => {
+const ReadmoreReadless = ({ limit,children }) => {
   
-const [isReadMoreShown.setReadMoreShown] =
+const [isReadMoreShown,setReadMoreShown] =
     useState(false)
   
  const toggleBtn = () =>{
