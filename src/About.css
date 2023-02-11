@@ -2,20 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 .container h1 {
   text-align: center;
   padding-top: 20px;
   font-family: "Poppins";
   font-weight: 600;
-  
-} 
-.second-section-2 p{
+}
+.second-section-2 p {
   max-width: 700px;
   font-family: "Poppins";
 }
-.second-section-2{
+.second-section-2 {
   flex-wrap: wrap-reverse;
   display: flex;
   justify-content: space-evenly;
@@ -36,42 +34,70 @@
 .second-section img {
   width: 600px;
 }
-.second-section p {
+.Read-para {
   max-width: 700px;
   font-family: "Poppins";
-
-}.Img img {
+}
+.Img img {
   width: 600px;
 }
-@media only screen and (max-width:600px){
- .second-section h1{
-  text-align: center;
-  font-size: 30px;
- }
- .second-section p{
-  font-size: 12px;
-  text-align: center
- }
- .second-section{
-  justify-content: center;
- }
- .Img img{
-  width: 100%;
-  height: auto;
- }
- .second-section img{
-  width: 100%;
-  height: auto;
- }
- .second-section-2{
-  flex-wrap: wrap-reverse;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 150px;
-  font-family: "Poppins";
-  padding: 10px;
-  text-align: center;
+.Read-Btn {
+  display: block;
+  color: #000000;
+  background: #ffffff;
+  border:1px solid black;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  
 }
-
+@media only screen and (max-width: 320px) {
+  .Read-Btn {
+    display: block;
+    color: #000000;
+    background: #ffffff;
+    border:1px solid black;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 90px;
+    margin-left: 105px;
+    margin-top: 10px;
+  }
+  .Read-para {
+    max-width: 700px;
+    font-family: "Poppins";
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .second-section h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .second-section p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .second-section {
+    justify-content: center;
+  }
+  .Img img {
+    width: 100%;
+    height: auto;
+  }
+  .second-section img {
+    width: 100%;
+    height: auto;
+  }
+  .second-section-2 {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 150px;
+    font-family: "Poppins";
+    padding: 10px;
+    text-align: center;
+  }
 }

@@ -14,12 +14,13 @@ export const About = () => {
       <div className="second-section">
         <div>
           <h1>Our Culture</h1>
-          <ReadmoreReadless
+          <div className="Read-para">
+          <ReadmoreReadless 
             limit={100}
           >
             When the world feels heavy, it's easy to question whether it's
             worthwhile to have faith in humanity. Our team of journalists spends
-            each day look at the day's most heartbreaking news stories — but as
+            each day look at the day's most heartbreaking news stories but as
             a positive news media company, we do things a bit differently Every
             one of us is, in the cosmic perspective, precious. If a human
             disagrees with you, let him live. In a hundred billion galaxies, you
@@ -30,6 +31,7 @@ export const About = () => {
             healing. Our shared vulnerability and imperfection nurtures and
             sustains our capacity for compassion For me, forgiveness an
           </ReadmoreReadless>
+          </div>
         </div>
         <div>
           <img src={OC} alt="" />
@@ -40,11 +42,12 @@ export const About = () => {
           <img src={HT} alt="" />
         </div>
         <div>
+          <div className="Read-para">
           <h1>Our Humanity</h1>
           <ReadmoreReadless>
             When the world feels heavy, it's easy to question whether it's
             worthwhile to have faith in humanity. Our team of journalists spends
-            each day look at the day's most heartbreaking news stories — but as
+            each day look at the day's most heartbreaking news stories but as
             a positive news media company, we do things a bit differently Every
             one of us is, in the cosmic perspective, precious. If a human
             disagrees with you, let him live. In a hundred billion galaxies, you
@@ -55,18 +58,12 @@ export const About = () => {
             healing. Our shared vulnerability and imperfection nurtures and
             sustains our capacity for compassion For me, forgiveness an
           </ReadmoreReadless>
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-function App() {
-  return (
-    <>
-      <h1>Read more Read less</h1>
-    </>
-  );
-}
 
 export default About;
