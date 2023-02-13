@@ -16,7 +16,7 @@ export const About = () => {
           <h1>Our Culture</h1>
           <div className="Read-para">
           <ReadmoreReadless 
-            limit={100}
+            limit={200}
           >
             When the world feels heavy, it's easy to question whether it's
             worthwhile to have faith in humanity. Our team of journalists spends
@@ -44,7 +44,9 @@ export const About = () => {
         <div>
           <div className="Read-para">
           <h1>Our Humanity</h1>
-          <ReadmoreReadless>
+          <ReadmoreReadless
+          limit={200}
+          >
             When the world feels heavy, it's easy to question whether it's
             worthwhile to have faith in humanity. Our team of journalists spends
             each day look at the day's most heartbreaking news stories but as

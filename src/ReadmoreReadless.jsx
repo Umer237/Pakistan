@@ -14,7 +14,7 @@ const [isReadMoreShown,setReadMoreShown] =
     return (
     <>
       <div className="read-more-read-less">
-        {isReadMoreShown ? text : text.substr(0, 200)}
+        {isReadMoreShown ? text : text.substr(0, limit)}
         <button className="Read-Btn" onClick={toggleBtn}>{isReadMoreShown ? 'Read Less' : 'Read More'}</button>
  </div>
     </>
