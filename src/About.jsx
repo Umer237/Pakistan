@@ -6,8 +6,14 @@ import OC from "./images/Our-Culture.jpg";
 import HT from "./images/Umbrela.jpg";
 
 export const About = () => {
+
+
+
   return (
     <>
+
+
+
       <div className="container">
         <h1>About Us</h1>
       </div>
